@@ -1,0 +1,27 @@
+{
+  "name": "action-types",
+  "version": "1.0.0",
+  "description": "extended crud action types for redux actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l2silver/action-types.git"
+  },
+  "keywords": [
+    "redux",
+    "action-types"
+  ],
+  "author": "Leigh Silverstein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l2silver/action-types/issues"
+  },
+  "homepage": "https://github.com/l2silver/action-types#readme",
+  "dependencies": {
+    "decamelize": "^1.2.0",
+    "pluralize": "^4.0.0"
+  }
+}
