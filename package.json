@@ -1,6 +1,6 @@
 {
   "name": "resource-action-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "extended crud action types for redux actions",
   "main": "index.js",
   "repository": {
