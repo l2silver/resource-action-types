@@ -26,6 +26,7 @@ export default {
   remove,
   get,
   index,
+  reorder
 }
 
 export {
@@ -38,4 +39,5 @@ export {
   remove,
   get,
   index,
+  reorder,
 }
