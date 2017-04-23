@@ -5,6 +5,7 @@ export function generateActionName(name){
   return decamelize(name).toUpperCase()
 }
 
+function reorder(name){return 'REORDER_' + generateActionName(pluralize(name, 1))}
 function link(name){return 'LINK_' + generateActionName(pluralize(name, 1))}
 function unlink(name){return 'UNLINK_' + generateActionName(pluralize(name, 1))}
 function createRelationship(name){return 'INDEX_LINK_' + generateActionName(pluralize(name, 1))}
