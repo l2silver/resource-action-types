@@ -27,5 +27,6 @@ export default {
   remove,
   get,
   index,
-  reorder
+  reorder,
+  concatRelationship,
 }
